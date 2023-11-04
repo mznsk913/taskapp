@@ -95,29 +95,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J6k-3F-5MG">
-                                <rect key="frame" x="10" y="294" width="373" height="120"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="mmV-n6-tdW"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="9nV-pb-Y1a">
-                                <rect key="frame" x="10" y="424" width="373" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="qyD-R2-Kuu"/>
-                                </constraints>
-                            </datePicker>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFU-u2-e34">
-                                <rect key="frame" x="10" y="263" width="373" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カテゴリ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhg-Vj-u35">
                                 <rect key="frame" x="10" y="188" width="373" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -129,52 +106,53 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFU-u2-e34">
+                                <rect key="frame" x="10" y="263" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J6k-3F-5MG">
+                                <rect key="frame" x="10" y="294" width="373" height="120"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="9nV-pb-Y1a">
+                                <rect key="frame" x="10" y="424" width="373" height="216"/>
+                            </datePicker>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dHX-N2-jg5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="knx-Tb-oIE" firstAttribute="top" secondItem="Mgb-qf-TCf" secondAttribute="bottom" constant="10" id="1Tt-oO-4zl"/>
-                            <constraint firstItem="Mgb-qf-TCf" firstAttribute="top" secondItem="dHX-N2-jg5" secondAttribute="top" constant="10" id="25Z-bJ-3ez"/>
-                            <constraint firstItem="bFU-u2-e34" firstAttribute="top" secondItem="knx-Tb-oIE" secondAttribute="bottom" constant="10" id="3hY-Lb-35d"/>
-                            <constraint firstItem="bFU-u2-e34" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="4Xy-ax-GTR"/>
-                            <constraint firstAttribute="trailing" secondItem="9nV-pb-Y1a" secondAttribute="trailing" constant="10" id="8QP-Oe-xae"/>
-                            <constraint firstItem="Mgb-qf-TCf" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="BT1-Kf-bsW"/>
-                            <constraint firstItem="Mgb-qf-TCf" firstAttribute="top" secondItem="dHX-N2-jg5" secondAttribute="top" constant="10" id="CUj-p5-GNJ"/>
-                            <constraint firstItem="9nV-pb-Y1a" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="DIS-hi-wZk"/>
-                            <constraint firstItem="J6k-3F-5MG" firstAttribute="top" secondItem="bFU-u2-e34" secondAttribute="bottom" constant="10" id="EQ9-C8-ddd"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="bFU-u2-e34" secondAttribute="trailing" constant="10" id="Ew6-HQ-Xww"/>
-                            <constraint firstItem="Hhg-Vj-u35" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="GJ6-MM-Tz2"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="9nV-pb-Y1a" secondAttribute="trailing" constant="10" id="Hig-RF-4iv"/>
-                            <constraint firstItem="9nV-pb-Y1a" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="J1H-bN-h3t"/>
-                            <constraint firstItem="knx-Tb-oIE" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="LHZ-41-sgT"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="J6k-3F-5MG" secondAttribute="trailing" constant="10" id="PVU-Z3-b3z"/>
-                            <constraint firstItem="knx-Tb-oIE" firstAttribute="top" secondItem="Mgb-qf-TCf" secondAttribute="bottom" constant="10" id="QQs-yx-BEs"/>
-                            <constraint firstItem="knx-Tb-oIE" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="QYb-RN-DSh"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="Mgb-qf-TCf" secondAttribute="trailing" constant="10" id="THW-Pt-qUZ"/>
-                            <constraint firstItem="Hhg-Vj-u35" firstAttribute="top" secondItem="knx-Tb-oIE" secondAttribute="bottom" constant="10" id="Tg5-Cl-zMa"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="knx-Tb-oIE" secondAttribute="trailing" constant="10" id="V2T-25-Tyg"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="Hhg-Vj-u35" secondAttribute="trailing" constant="10" id="Yfz-5r-ARN"/>
-                            <constraint firstItem="bFU-u2-e34" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="bMu-Kp-Lkh"/>
-                            <constraint firstItem="J6k-3F-5MG" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="bxT-J5-RuQ"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="Mgb-qf-TCf" secondAttribute="trailing" constant="10" id="cvD-aT-TUe"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="knx-Tb-oIE" secondAttribute="trailing" constant="10" id="dGc-E8-4Zs"/>
-                            <constraint firstItem="J6k-3F-5MG" firstAttribute="top" secondItem="bFU-u2-e34" secondAttribute="bottom" constant="10" id="fU1-T8-NkI"/>
-                            <constraint firstItem="9nV-pb-Y1a" firstAttribute="top" secondItem="J6k-3F-5MG" secondAttribute="bottom" constant="10" id="gfT-GY-7xn"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="bFU-u2-e34" secondAttribute="trailing" constant="10" id="hRM-Sm-OWx"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="J6k-3F-5MG" secondAttribute="trailing" constant="10" id="hSU-aY-Wpm"/>
-                            <constraint firstItem="Mgb-qf-TCf" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="m8f-RX-PeF"/>
-                            <constraint firstItem="QqX-Pc-gBq" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="mRf-jp-4zb"/>
-                            <constraint firstItem="QqX-Pc-gBq" firstAttribute="top" secondItem="Hhg-Vj-u35" secondAttribute="bottom" constant="10" id="qAP-zY-rZv"/>
-                            <constraint firstItem="9nV-pb-Y1a" firstAttribute="top" secondItem="J6k-3F-5MG" secondAttribute="bottom" constant="10" id="s0a-or-V4V"/>
-                            <constraint firstItem="bFU-u2-e34" firstAttribute="top" secondItem="QqX-Pc-gBq" secondAttribute="bottom" constant="10" id="uME-Fp-bNf"/>
-                            <constraint firstItem="9nV-pb-Y1a" firstAttribute="top" secondItem="J6k-3F-5MG" secondAttribute="bottom" constant="10" id="vMw-9h-haF"/>
-                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="QqX-Pc-gBq" secondAttribute="trailing" constant="10" id="yQW-yV-t3y"/>
-                            <constraint firstItem="J6k-3F-5MG" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="zPJ-DC-9MZ"/>
+                            <constraint firstItem="Mgb-qf-TCf" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="03g-5D-uuh"/>
+                            <constraint firstItem="QqX-Pc-gBq" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="2o5-sX-AFV"/>
+                            <constraint firstItem="Hhg-Vj-u35" firstAttribute="top" secondItem="knx-Tb-oIE" secondAttribute="bottom" constant="10" id="2tp-Jl-dcO"/>
+                            <constraint firstItem="knx-Tb-oIE" firstAttribute="top" secondItem="Mgb-qf-TCf" secondAttribute="bottom" constant="10" id="3Z9-TY-RIr"/>
+                            <constraint firstItem="QqX-Pc-gBq" firstAttribute="top" secondItem="Hhg-Vj-u35" secondAttribute="bottom" constant="10" id="5DO-IY-wEz"/>
+                            <constraint firstItem="9nV-pb-Y1a" firstAttribute="top" secondItem="J6k-3F-5MG" secondAttribute="bottom" constant="10" id="733-V2-6lv"/>
+                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="QqX-Pc-gBq" secondAttribute="trailing" constant="10" id="Aro-Ud-45g"/>
+                            <constraint firstItem="bFU-u2-e34" firstAttribute="top" secondItem="QqX-Pc-gBq" secondAttribute="bottom" constant="10" id="G3Z-s2-7sg"/>
+                            <constraint firstItem="J6k-3F-5MG" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="Itf-wJ-Abc"/>
+                            <constraint firstItem="Hhg-Vj-u35" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="S1f-kG-OO1"/>
+                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="Hhg-Vj-u35" secondAttribute="trailing" constant="10" id="cBA-CS-kmK"/>
+                            <constraint firstItem="9nV-pb-Y1a" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="cZo-LI-60F"/>
+                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="bFU-u2-e34" secondAttribute="trailing" constant="10" id="fsl-Bo-ybW"/>
+                            <constraint firstItem="knx-Tb-oIE" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="iRc-VB-6lW"/>
+                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="9nV-pb-Y1a" secondAttribute="trailing" constant="10" id="lXL-kG-lxQ"/>
+                            <constraint firstItem="Mgb-qf-TCf" firstAttribute="top" secondItem="dHX-N2-jg5" secondAttribute="top" constant="10" id="oPO-La-W6O"/>
+                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="Mgb-qf-TCf" secondAttribute="trailing" constant="10" id="qc3-fg-2wF"/>
+                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="knx-Tb-oIE" secondAttribute="trailing" constant="10" id="t3b-cu-Zpn"/>
+                            <constraint firstItem="bFU-u2-e34" firstAttribute="leading" secondItem="dHX-N2-jg5" secondAttribute="leading" constant="10" id="vOD-So-Bes"/>
+                            <constraint firstItem="J6k-3F-5MG" firstAttribute="top" secondItem="bFU-u2-e34" secondAttribute="bottom" constant="10" id="yAX-H8-YSQ"/>
+                            <constraint firstItem="dHX-N2-jg5" firstAttribute="trailing" secondItem="J6k-3F-5MG" secondAttribute="trailing" constant="10" id="yeL-0Y-Yfx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5hp-3K-lOr"/>
                     <connections>
-                        <outlet property="categoryTextView" destination="QqX-Pc-gBq" id="Gyj-3D-RpY"/>
+                        <outlet property="categoryTextView" destination="QqX-Pc-gBq" id="bRJ-fI-wyJ"/>
                         <outlet property="contentsTextView" destination="J6k-3F-5MG" id="j0a-mK-Y5G"/>
                         <outlet property="datePicker" destination="9nV-pb-Y1a" id="D5O-Bj-fs0"/>
                         <outlet property="titleTextField" destination="knx-Tb-oIE" id="I5L-wc-X0k"/>
